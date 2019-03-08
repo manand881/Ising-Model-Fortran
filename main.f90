@@ -29,5 +29,26 @@ program ising !2D Monte Carlo Simultion Of Ising Model
 
     implicit none
 
+    !Variable Declarations:
+    integer :: i, j, m, n, m2, n2       ! dummy integers
+    integer,allocatable :: A(:,:)       ! matrix containing spins
+    integer :: nrows, ncols             ! number of rows and cols of A
+    real :: temp, beta                  ! temperature ,inverse temperature
+    integer :: ConfigType               ! starting configuration type
+    integer :: npass                    ! number of passes for MC algorithm
+    integer :: ipass                    ! the current pass number
+    integer :: nequil                   ! number of equilibration steps
+    integer :: trial_spin               ! values of changed spin
+    real :: high_temp                   ! starting temp for scan
+    real :: low_temp                    ! final temp for scan
+    real :: temp_interval               ! interval between scan points
+    integer :: nscans                   ! number of scans ( each at diff T )
+    integer :: iscan                    ! curent scan number
+    logical :: MovieOn                  ! set to .true. to make movie of 1 temp
+    real :: deltaU                      ! change in energy between 2 configs
     
+
+
+
+
 end program ising
