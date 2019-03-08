@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Anand\CLionProjects\Ising_Model
+-- The Fortran compiler identification is GNU 8.2.0
+-- Check for working Fortran compiler: C:/MinGW/bin/gfortran.exe
+-- Check for working Fortran compiler: C:/MinGW/bin/gfortran.exe  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether C:/MinGW/bin/gfortran.exe supports Fortran 90
+-- Checking whether C:/MinGW/bin/gfortran.exe supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug

@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Ising_Model.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Ising_Model.dir/objects.a @CMakeFiles\Ising_Model.dir\objects1.rsp
+C:\MinGW\bin\gfortran.exe -g   -Wl,--whole-archive CMakeFiles\Ising_Model.dir/objects.a -Wl,--no-whole-archive  -o Ising_Model.exe -Wl,--out-implib,libIsing_Model.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

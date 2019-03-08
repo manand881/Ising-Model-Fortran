@@ -1,0 +1,244 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: C:/MinGW/bin/gfortran.exe 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: C:/MinGW/bin/gfortran.exe -v CMakeFortranCompilerId.F -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=C:/MinGW/bin/gfortran.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-3' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings
+Thread model: win32
+gcc version 8.2.0 (MinGW.org GCC-8.2.0-3) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/f951.exe CMakeFortranCompilerId.F -ffixed-form -cpp=C:\Users\Anand\AppData\Local\Temp\ccukO8ek.f90 -quiet -v -iprefix c:\mingw\bin\../lib/gcc/mingw32/8.2.0/ CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=i586 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path c:/mingw/bin/../lib/gcc/mingw32/8.2.0/finclude -o C:\Users\Anand\AppData\Local\Temp\cc3Vivdm.s
+GNU Fortran (MinGW.org GCC-8.2.0-3) version 8.2.0 (mingw32)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include"
+ignoring duplicate directory "/mingw/lib/gcc/mingw32/8.2.0/../../../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/include-fixed"
+ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/8.2.0/../../../../mingw32/include"
+ignoring duplicate directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:/mingw/bin/../lib/gcc/mingw32/8.2.0/finclude
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include
+ c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed
+End of search list.
+GNU Fortran2008 (MinGW.org GCC-8.2.0-3) version 8.2.0 (mingw32)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/as.exe -v -o C:\Users\Anand\AppData\Local\Temp\ccMFHbqr.o C:\Users\Anand\AppData\Local\Temp\cc3Vivdm.s
+GNU assembler version 2.32 (mingw32) using BFD version (GNU Binutils) 2.32
+Reading specs from c:/mingw/bin/../lib/gcc/mingw32/8.2.0/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/8.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Anand\AppData\Local\Temp\ccNwViBB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../.. C:\Users\Anand\AppData\Local\Temp\ccMFHbqr.o -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=i586'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.exe"
+
+The Fortran compiler identification is GNU, found in "C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdFortran/a.exe"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_566e6/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_566e6.dir\build.make CMakeFiles/cmTC_566e6.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_566e6.dir/testFortranCompiler.f.obj
+C:\MinGW\bin\gfortran.exe    -c C:\Users\Anand\CLionProjects\Ising_Model\cmake-build-debug\CMakeFiles\CMakeTmp\testFortranCompiler.f -o CMakeFiles\cmTC_566e6.dir\testFortranCompiler.f.obj
+Linking Fortran executable cmTC_566e6.exe
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_566e6.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_566e6.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_566e6.dir/objects.a @CMakeFiles\cmTC_566e6.dir\objects1.rsp
+C:\MinGW\bin\gfortran.exe      -Wl,--whole-archive CMakeFiles\cmTC_566e6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_566e6.exe -Wl,--out-implib,libcmTC_566e6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_25a22/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_25a22.dir\build.make CMakeFiles/cmTC_25a22.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_25a22.dir/CMakeFortranCompilerABI.F.obj
+C:\MinGW\bin\gfortran.exe    -c "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\share\cmake-3.13\Modules\CMakeFortranCompilerABI.F" -o CMakeFiles\cmTC_25a22.dir\CMakeFortranCompilerABI.F.obj
+Linking Fortran executable cmTC_25a22.exe
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_25a22.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_25a22.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_25a22.dir/objects.a @CMakeFiles\cmTC_25a22.dir\objects1.rsp
+C:\MinGW\bin\gfortran.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_25a22.dir/objects.a -Wl,--no-whole-archive  -o cmTC_25a22.exe -Wl,--out-implib,libcmTC_25a22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Driving: C:\MinGW\bin\gfortran.exe -v -Wl,--whole-archive CMakeFiles\cmTC_25a22.dir/objects.a -Wl,--no-whole-archive -o cmTC_25a22.exe -Wl,--out-implib,libcmTC_25a22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=C:\MinGW\bin\gfortran.exe
+COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-3' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings
+Thread model: win32
+gcc version 8.2.0 (MinGW.org GCC-8.2.0-3) 
+Reading specs from c:/mingw/bin/../lib/gcc/mingw32/8.2.0/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a22.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/
+LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/8.2.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a22.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Anand\AppData\Local\Temp\ccWhxber.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_25a22.exe c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../.. --whole-archive CMakeFiles\cmTC_25a22.dir/objects.a --no-whole-archive --out-implib libcmTC_25a22.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a22.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_25a22/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_25a22.dir\build.make CMakeFiles/cmTC_25a22.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_25a22.dir/CMakeFortranCompilerABI.F.obj]
+  ignore line: [C:\MinGW\bin\gfortran.exe    -c "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\share\cmake-3.13\Modules\CMakeFortranCompilerABI.F" -o CMakeFiles\cmTC_25a22.dir\CMakeFortranCompilerABI.F.obj]
+  ignore line: [Linking Fortran executable cmTC_25a22.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_25a22.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_25a22.dir/objects.a]
+  ignore line: [C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_25a22.dir/objects.a @CMakeFiles\cmTC_25a22.dir\objects1.rsp]
+  ignore line: [C:\MinGW\bin\gfortran.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_25a22.dir/objects.a -Wl,--no-whole-archive  -o cmTC_25a22.exe -Wl,--out-implib,libcmTC_25a22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Driving: C:\MinGW\bin\gfortran.exe -v -Wl,--whole-archive CMakeFiles\cmTC_25a22.dir/objects.a -Wl,--no-whole-archive -o cmTC_25a22.exe -Wl,--out-implib,libcmTC_25a22.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\MinGW\bin\gfortran.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-8.2.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-8.2.0-3' --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-isl=/mingw --enable-libgomp --disable-libvtv --enable-nls --disable-build-format-warnings]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 8.2.0 (MinGW.org GCC-8.2.0-3) ]
+  ignore line: [Reading specs from c:/mingw/bin/../lib/gcc/mingw32/8.2.0/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a22.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/]
+  ignore line: [c:/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/8.2.0/]
+  ignore line: [c:/mingw/bin/../lib/gcc/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib/]
+  ignore line: [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25a22.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Anand\AppData\Local\Temp\ccWhxber.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_25a22.exe c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../.. --whole-archive CMakeFiles\cmTC_25a22.dir/objects.a --no-whole-archive --out-implib libcmTC_25a22.dll.a --major-image-version 0 --minor-image-version 0 -lgfortran -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lquadmath -lm -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtend.o]
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\Anand\AppData\Local\Temp\ccWhxber.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-u] ==> ignore
+    arg [___register_frame_info] ==> ignore
+    arg [-u] ==> ignore
+    arg [___deregister_frame_info] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_25a22.exe] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../crt2.o] ==> ignore
+    arg [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0]
+    arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib]
+    arg [-Lc:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_25a22.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_25a22.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0] ==> [C:/MinGW/lib/gcc/mingw32/8.2.0]
+  collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+  collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/8.2.0/../../..] ==> [C:/MinGW/lib]
+  implicit libs: [gfortran;mingw32;gcc_s;gcc;moldname;mingwex;quadmath;m;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+  implicit dirs: [C:/MinGW/lib/gcc/mingw32/8.2.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_31421/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_31421.dir\build.make CMakeFiles/cmTC_31421.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_31421.dir/testFortranCompilerF90.f90.obj
+C:\MinGW\bin\gfortran.exe    -c C:\Users\Anand\CLionProjects\Ising_Model\cmake-build-debug\CMakeFiles\CMakeTmp\testFortranCompilerF90.f90 -o CMakeFiles\cmTC_31421.dir\testFortranCompilerF90.f90.obj
+Linking Fortran executable cmTC_31421.exe
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_31421.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_31421.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\cmTC_31421.dir/objects.a @CMakeFiles\cmTC_31421.dir\objects1.rsp
+C:\MinGW\bin\gfortran.exe      -Wl,--whole-archive CMakeFiles\cmTC_31421.dir/objects.a -Wl,--no-whole-archive  -o cmTC_31421.exe -Wl,--out-implib,libcmTC_31421.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+

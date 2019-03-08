@@ -1,0 +1,3 @@
+C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/Ising_Model.dir
+C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/CMakeFiles/rebuild_cache.dir
