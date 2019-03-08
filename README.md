@@ -5,4 +5,4 @@ This contains project work done by me during the month of March-April in NIT - M
 
 ## Footnotes
 
-*ising.in is in cmake-build-debug.
+* ising.in is in cmake-build-debug.
