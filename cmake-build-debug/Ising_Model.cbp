@@ -45,6 +45,16 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ising.in">
+				<Option working_dir="C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 ising.in"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/Anand/CLionProjects/Ising_Model/cmake-build-debug"/>
 				<Option type="4"/>

@@ -101,6 +101,38 @@ clean: CMakeFiles/Ising_Model.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ising.in.dir
+
+# All Build rule for target.
+CMakeFiles/ising.in.dir/all:
+	$(MAKE) -f CMakeFiles\ising.in.dir\build.make CMakeFiles/ising.in.dir/depend
+	$(MAKE) -f CMakeFiles\ising.in.dir\build.make CMakeFiles/ising.in.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Anand\CLionProjects\Ising_Model\cmake-build-debug\CMakeFiles --progress-num= "Built target ising.in"
+.PHONY : CMakeFiles/ising.in.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ising.in.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anand\CLionProjects\Ising_Model\cmake-build-debug\CMakeFiles 0
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ising.in.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Anand\CLionProjects\Ising_Model\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/ising.in.dir/rule
+
+# Convenience name for target.
+ising.in: CMakeFiles/ising.in.dir/rule
+
+.PHONY : ising.in
+
+# clean rule for target.
+CMakeFiles/ising.in.dir/clean:
+	$(MAKE) -f CMakeFiles\ising.in.dir\build.make CMakeFiles/ising.in.dir/clean
+.PHONY : CMakeFiles/ising.in.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ising.in.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

@@ -122,6 +122,19 @@ Ising_Model/fast:
 	$(MAKE) -f CMakeFiles\Ising_Model.dir\build.make CMakeFiles/Ising_Model.dir/build
 .PHONY : Ising_Model/fast
 
+#=============================================================================
+# Target rules for targets named ising.in
+
+# Build rule for target.
+ising.in: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ising.in
+.PHONY : ising.in
+
+# fast build rule for target.
+ising.in/fast:
+	$(MAKE) -f CMakeFiles\ising.in.dir\build.make CMakeFiles/ising.in.dir/build
+.PHONY : ising.in/fast
+
 main.obj: main.f90.obj
 
 .PHONY : main.obj
@@ -156,6 +169,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... Ising_Model
+	@echo ... ising.in
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

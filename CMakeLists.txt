@@ -4,3 +4,4 @@ project(Ising_Model Fortran)
 
 enable_language(Fortran)
 add_executable(Ising_Model main.f90)
+add_custom_target(ising.in)

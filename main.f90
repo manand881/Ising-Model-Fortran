@@ -1,10 +1,11 @@
-	program ising  
-	implicit  none
+	program ising
+
+    implicit  none
 
     ! The input parameters for this program are in "ising.in"
 	! Variable declarations:
 
-    integer :: i, j, m, n, m2, n2,i1    ! dummy integers
+    integer :: i, j, m, n, m2, n2, i1   ! dummy integers
 
 	integer, allocatable :: A(:,:)      ! matrix containing spins
 	integer :: nrows, ncols             ! number  of rows  and  cols of A
@@ -32,13 +33,18 @@
 
 	real*8 :: ran0, rand_uniform
 
-	print*,  "	MONTE CARLO 2D ISING MODEL	"
-	print*, "Monte Carlo Statistics for 2D Ising Model with"
-	print*, "  periodic boundary conditions."
-	print*, "The critical temperature is approximately 2.3, as seen on Chandler p. 123."
+	print*, "   MONTE CARLO 2D ISING MODEL"
+    print*, ""
+	print*, "   Monte Carlo Statistics for 2D Ising Model with"
+    print*, ""
+    print*, "   periodic boundary conditions."
+    print*, ""
+    print*, "   The critical temperature is approximately 2.3, as seen on Chandler p. 123."
+    print*, ""
 
-	! Read in input parameters from file "ising.in"
-	open(unit=11,file='ising.in',status='old', action='read')
+    ! Read in input parameters from file "ising.in"
+
+    open(unit=11,file='ising.in',status='old', action='read')
 	read(11,*);
 	read(11,*) nrows
 	read(11,*);
@@ -61,10 +67,12 @@
 	! Set the dimensions of the matrix of spin arrays. This program uses
 	! periodic boundary conditions, so the first two rows and columns are
 	! the same as the last two.
-	allocate(A(nrows+2,ncols+2))
+
+    allocate(A(nrows+2,ncols+2))
 	
 	! Open output files:
-	open(unit=32,file='spin-array',status='replace',action='write')
+
+    open(unit=32,file='spin-array',status='replace',action='write')
 	write(32,*) nrows
 	write(32,*) ncols
 	nscans  =  int((high_temp  -  low_temp)/temp_interval)  +  1
@@ -78,7 +86,8 @@
 	print*, "Running program for T =", temp
 		 
 	! Initialize variables
-	beta  =  1.0/temp
+
+    beta  =  1.0/temp
 	output_count   =   0
 	energy_ave  =  0.0
 	energy2_ave  =  0.0
@@ -86,7 +95,8 @@
 	magnetization2_ave  =  0.0
 	
 	! Set up the initial spin configuration.
-	select case(ConfigType)
+
+    select case(ConfigType)
 	case(1)  ! checkerboard setup
 	A(1,1)  =  1
 	do i = 1, nrows+1
@@ -101,14 +111,15 @@
 	end select
 	
 
-	
 	! Main loop containing Monte Carlo algorithm:
-	MC_passes: do ipass = 0, npass
+
+    MC_passes: do ipass = 0, npass
 	
 	
 	! If ipass is greater than nequil (the number of equilibration steps),
 	! calculate the magnetization and energy:
-	if (ipass > nequil) then
+
+    if (ipass > nequil) then
 	output_count  =  output_count  +  1
 	magnetization     =     sum(A(2:nrows+1,2:nrows+1))/(ncols*nrows*1.0)
 	magnetization_ave  =  magnetization_ave  +  magnetization
