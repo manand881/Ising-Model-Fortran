@@ -1,32 +1,34 @@
 	program ising  
 	implicit  none
-	! The input parameters for this program are in "ising.in"
-	! Variable declarations:
-	integer :: i, j, m, n, m2, n2,i1	! dummy integers
 
-	integer, allocatable :: A(:,:)  ! matrix containing spins
-	integer :: nrows, ncols	! number  of rows  and  cols of A
-	real :: temp, beta	! temperature, inverse temperature
-	integer :: ConfigType	! starting configuration type
-	integer  :: npass	! number of passes for MC algorithm
-	integer :: ipass	! the current pass number
-	integer  :: nequil	! number of equilibration steps
-	integer :: trial_spin	! values of changed spin
-	real :: high_temp	! starting temp for scan
-	real :: low_temp	! final temp for scan
-	real :: temp_interval	! interval between scan points
-	integer :: nscans	! number of scans (each at diff T)
-	integer :: iscan,iscan1	! current scan number
-	real :: deltaU	! change in energy between 2 configs
-	real :: deltaU1, deltaU2	! energy changes for lattice gas
-	real :: log_eta	! log of random number to compare to
-	real :: magnetization	! magnetization of all spins in lattice
-	real :: magnetization_ave	! cumulative average magnetization
-	real :: magnetization2_ave	! cumulative average of mag. squared
-	real :: energy	! energy of all spins in lattice
-	real :: energy_ave	! cumulative average of energy
-	real :: energy2_ave	! cumulative average of energy squared
-	integer :: output_count	! # times things have been added to averages
+    ! The input parameters for this program are in "ising.in"
+	! Variable declarations:
+
+    integer :: i, j, m, n, m2, n2,i1    ! dummy integers
+
+	integer, allocatable :: A(:,:)      ! matrix containing spins
+	integer :: nrows, ncols             ! number  of rows  and  cols of A
+	real :: temp, beta                  ! temperature, inverse temperature
+	integer :: ConfigType               ! starting configuration type
+	integer  :: npass                   ! number of passes for MC algorithm
+	integer :: ipass                    ! the current pass number
+	integer  :: nequil                  ! number of equilibration steps
+	integer :: trial_spin               ! values of changed spin
+	real :: high_temp                   ! starting temp for scan
+	real :: low_temp                    ! final temp for scan
+	real :: temp_interval               ! interval between scan points
+	integer :: nscans                   ! number of scans (each at diff T)
+	integer :: iscan,iscan1             ! current scan number
+	real :: deltaU                      ! change in energy between 2 configs
+	real :: deltaU1, deltaU2	        ! energy changes for lattice gas
+	real :: log_eta                     ! log of random number to compare to
+	real :: magnetization               ! magnetization of all spins in lattice
+	real :: magnetization_ave           ! cumulative average magnetization
+	real :: magnetization2_ave          ! cumulative average of mag. squared
+	real :: energy                      ! energy of all spins in lattice
+	real :: energy_ave                  ! cumulative average of energy
+	real :: energy2_ave                 ! cumulative average of energy squared
+	integer :: output_count             ! # times things have been added to averages
 
 	real*8 :: ran0, rand_uniform
 
@@ -200,7 +202,3 @@
 	  return
  	  
 	end function rand_uniform
-
-
-
-
