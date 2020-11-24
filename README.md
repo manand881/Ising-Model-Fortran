@@ -1,8 +1,3 @@
-# Ising_Model
-Solving Ising_Model for Quasi 3D
+# Ising Model Simulation in Fortran
 
-This contains project work done by me during the month of March-April in NIT - Manipur. This work was done in the field of soft mater physics under professor lenin sir.
-
-## Footnotes
-
-* ising.in is in cmake-build-debug.
+This Repository contains code which simulates the Ising Model for 2D lattices
